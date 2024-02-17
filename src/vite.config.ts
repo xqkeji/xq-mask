@@ -14,7 +14,7 @@ export default defineConfig({
         cssCodeSplit:true,
         rollupOptions: {
             input: {
-                'xq-confirm': resolve(__dirname, 'index.html')
+                'xq-mask': resolve(__dirname, 'index.html')
             }
         }
     }
