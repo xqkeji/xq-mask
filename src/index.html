@@ -1,0 +1,56 @@
+<xq-include file="./partials/header.html" title="xq-mask遮罩层演示页面"></xq-include>
+    <div class="container">
+        <div class="row justify-content-center mt-3">
+            <div class="card  p-0">
+                <div class="card-header">
+                    安装与使用
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>npm i xq-mask</p>
+                        <p>在typescript代码或javascript代码中引入后使用</p>
+                        <p>import {xqMask,xqUnMask} from 'xq-mask';</p>
+                        <p class="link-danger">同时在相应的页面得引入bootstrap和bootstrap-icon</p>
+                    </blockquote>
+                </div>
+                <div class="card-footer">
+                    <a href="https://www.npmjs.com/package/xq-mask" target="_blank" type="button" class="btn btn-primary">
+                        查看npm包信息
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+            
+            <div class="row justify-content-center  mt-3">
+                <div class="card p-0">
+                    <div class="card-header">
+                        打开遮罩层
+                    </div>
+                    <div class="card-body">
+<pre class="mb-0"><code>xqMask()</code></pre>
+                    </div>
+                    <div class="card-footer">
+                        <button id="default" type="button" class="btn btn-primary">打开遮罩层</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row justify-content-center  mt-3">
+                <div class="card p-0">
+                    <div class="card-header">
+                        关闭遮罩层
+                    </div>
+                    <div class="card-body">
+<pre class="mb-0"><code>xqUnMask()</code></pre>
+                        关闭遮罩层可以在浏览器控制台直接执行xqUnMask()
+                    </div>
+                    
+                </div>
+                
+            </div>
+        
+    </div>
+    
+   
+<xq-include file="./partials/footer.html"></xq-include>

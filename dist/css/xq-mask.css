@@ -1,0 +1,60 @@
+/*!
+ * xq-mask v1.0.1 (https://xqkeji.cn/demo/xq-mask)
+ * Author xqkeji.cn
+ * LICENSE SSPL-1.0
+ * Copyright 2024 xqkeji.cn
+ */
+ #xq-bs-mask.modal {
+  --bs-modal-width: 50px;
+}
+#xq-bs-mask.modal .modal-dialog .modal-content {
+  margin-top: 40vh;
+}
+#xq-bs-mask.modal .modal-dialog .overlay {
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1052;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 20px;
+}
+#xq-bs-mask.modal .modal-dialog .fa-spin {
+  -webkit-animation: fa-spin 2s linear infinite;
+  animation: fa-spin 2s linear infinite;
+  font-size: 3rem;
+}
+#xq-bs-mask.modal .modal-dialog .fa-pulse {
+  -webkit-animation: fa-spin 1s steps(8) infinite;
+  animation: fa-spin 1s steps(8) infinite;
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+
+/*# sourceMappingURL=xq-mask.css.map */

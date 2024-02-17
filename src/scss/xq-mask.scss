@@ -1,0 +1,61 @@
+#xq-bs-mask.modal{
+    --bs-modal-width: 50px;
+    
+    .modal-dialog{
+        .modal-content{
+            margin-top:40vh;
+        }
+        .overlay {
+            display: -ms-flexbox;
+            display: flex;
+            position: relative;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            z-index: 1052;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -ms-flex-align: center;
+            align-items: center;
+            padding-top:10px;
+            padding-bottom: 10px;
+            height: 20px;
+        }
+        .fa-spin {
+            -webkit-animation: fa-spin 2s linear infinite;
+            animation: fa-spin 2s linear infinite;
+            font-size:3rem;
+        }
+        
+        .fa-pulse {
+            -webkit-animation: fa-spin 1s steps(8) infinite;
+            animation: fa-spin 1s steps(8) infinite;
+        }
+        
+        @-webkit-keyframes fa-spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+        
+            to {
+                -webkit-transform: rotate(1turn);
+                transform: rotate(1turn);
+            }
+        }
+        
+        @keyframes fa-spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+        
+            to {
+                -webkit-transform: rotate(1turn);
+                transform: rotate(1turn);
+            }
+        }
+        
+    } 
+}
