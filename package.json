@@ -1,6 +1,6 @@
 {
 	"name": "xq-mask",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "基于Bootstrap5的Modal组件实现的遮罩层组件。",
 	"files": [
 		"dist"

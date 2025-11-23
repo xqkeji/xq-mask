@@ -1,5 +1,5 @@
 /*!
- * xq-mask v1.0.2 (https://xqkeji.cn/demo/xq-mask)
+ * xq-mask v1.0.3 (https://xqkeji.cn/demo/xq-mask)
  * Author xqkeji.cn
  * LICENSE SSPL-1.0
  * Copyright 2024 xqkeji.cn

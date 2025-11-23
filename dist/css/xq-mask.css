@@ -1,5 +1,5 @@
 /*!
- * xq-mask v1.0.2 (https://xqkeji.cn/demo/xq-mask)
+ * xq-mask v1.0.3 (https://xqkeji.cn/demo/xq-mask)
  * Author xqkeji.cn
  * LICENSE SSPL-1.0
  * Copyright 2024 xqkeji.cn
@@ -31,10 +31,6 @@
   -webkit-animation: fa-spin 2s linear infinite;
   animation: fa-spin 2s linear infinite;
   font-size: 3rem;
-}
-#xq-bs-mask.modal .modal-dialog .fa-pulse {
-  -webkit-animation: fa-spin 1s steps(8) infinite;
-  animation: fa-spin 1s steps(8) infinite;
 }
 @-webkit-keyframes fa-spin {
   0% {

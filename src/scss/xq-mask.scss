@@ -28,11 +28,6 @@
             font-size:3rem;
         }
         
-        .fa-pulse {
-            -webkit-animation: fa-spin 1s steps(8) infinite;
-            animation: fa-spin 1s steps(8) infinite;
-        }
-        
         @-webkit-keyframes fa-spin {
             0% {
                 -webkit-transform: rotate(0deg);
